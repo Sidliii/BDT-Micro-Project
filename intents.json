@@ -1,0 +1,129 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey",
+        "Hello",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+
+    {
+      "tag": "location",
+      "patterns": [
+        "located",
+        "where is the place",
+        "location",
+        "situated"
+      ],
+      "responses": [
+        "Our resort is located near Satara",
+        "It is situated near Satara",
+        "It is near Satara"
+      ]
+    },
+    {
+      "tag": "activities",
+      "patterns": ["activity", "activities","What activities are available?", "What activities are available?","adventure activities"],
+      "responses": [
+        "Activities which are available are Archery, Dart game, Cricket, Football, Badminton, Carom, Volleyball and more!"
+
+      ]
+    },
+    {
+      "tag": "timing",
+      "patterns": ["check in timing", "check out time", "how long can we stay","What are the timings"],
+      "responses": ["4PM to next day 11AM!"]
+    },
+    {
+      "tag": "packages",
+      "patterns": [
+        "What are the packages available",
+        "I would like to plan a stay",
+        "Stay options"
+      ],
+      "responses": [
+        "Package 1(Basic -> 1499\nInclusions BBQ, 2/3 person sharing tents, Games)\nPackage 2(Deluxe -> 1999\nInclusions- BBQ, 4/5 person sharing tents, Games)"
+
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "payment methods",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "pay",
+        "Payment Options"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+
+           {
+      "tag": "contact",
+      "patterns": [
+        "How can we contact you",
+        "Can i get your phone number",
+        "Can you give me your phone number"
+      ],
+      "responses": [
+        "You can contact us on 9876543210/9807689541"
+      ]
+    },
+
+    {
+      "tag": "iternity",
+      "patterns": [
+        "What is the iternity",
+        "What else can we do there",
+        "What is the plan through out the stay"
+      ],
+      "responses": [
+        "4:00 PM - High Tea and Snacks\n5:00 PM - Outdoor Activities\n7:00PM - BBQ and Born Fire\n9:00PM - Dinner\n10:00PM- Music and Relaxation\n8:00AM Breakfast\n11:00AM - Checkout with wonderful memories"
+      ]
+    },
+     {
+      "tag": "booking",
+      "patterns": [
+        "I would like to book a room",
+        "book a room",
+        "would like to book room"
+      ],
+      "responses": [
+        "Okay! Please enter your booking details to proceed"
+      ]
+    },
+
+         {
+      "tag": "bookingDetails",
+      "patterns": [
+       "I would like to know my booking status",
+        "I would like to know my booking details",
+        "booking details",
+        "booking status"
+
+
+      ],
+      "responses": [
+        "Okay! Please enter your booking id to proceed"
+      ]
+    }
+
+  ]
+}
